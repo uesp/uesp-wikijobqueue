@@ -1,0 +1,18 @@
+name = uesp.wikijobqueue
+description = MediaWiki extension for re-adding the Job Queue count to the Special:Statistics page.
+repository = https://github.com/uesp/uesp-wikijobqueue.git
+backup = false
+verbosity = 0
+
+staged = true
+
+ignore = *.deploy
+ignore = .hg*
+ignore = .git*
+
+dest = content1.uesp.net:/home/uesp/www/w/extensions/JobQueue/
+dest = content2.uesp.net:/home/uesp/www/w/extensions/JobQueue/
+dest = content3.uesp.net:/home/uesp/www/w/extensions/JobQueue/
+destname = [backup]backup1.uesp.net:/home/uesp/www/w/extensions/JobQueue/
+destname = [dev]content3.uesp.net:/home/uesp/dev/www/w/extensions/JobQueue/
+
